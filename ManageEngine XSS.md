@@ -11,7 +11,7 @@ In ManageEngine ServiceDesk Plus, an admin privileged user can manage other user
 12001
 
 **Steps to reproduce:**
-1. As we can see how the given tags are treated 
+1. As we can see how the given tags were treated 
 ![HTML Render](https://github.com/corrupted-brain/Findings/blob/main/step1.png)
 
 2. Then I used the payload as ```<script>alert(1)</script>@example.com```, and saved the email address. The injected code is executed as JavaScript popup. ![XSS popup](https://github.com/corrupted-brain/Findings/blob/main/step2.png)
